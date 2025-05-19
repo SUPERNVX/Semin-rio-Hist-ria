@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Independência da Argentina: História, Arte e Legado</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Montserrat:wght@400;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page-transition">
+        <div class="loader"></div>
+    </div>
+    
+    <header>
+        <div class="header-baroque-top"></div>
+        <nav>
+            <div class="logo-container">
+                <a href="#hero">ARG<span class="logo-detail">Libertad</span></a>
+            </div>
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#contexto-historico">Contexto</a></li>
+                <li><a href="#timeline-interativa">Linha do Tempo</a></li>
+                <li><a href="#documentos-fundamentais">Documentos</a></li>
+                <li><a href="#arte-cultura">Arte & Cultura</a></li>
+                <li><a href="#legado-influencias">Legado</a></li>
+            </ul>
+        </nav>
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <h1>Libertad:<br>
+                    <span class="hero-line-2">A Jornada da Independência</span><br>
+                    <span class="hero-line-3">Argentina</span>
+                </h1>
+                <p class="subtitle">Explore os registros históricos, a arte e as culturas que moldaram uma nação.</p>
+                <a href="#introducao" class="cta-button">Descubra Mais</a>
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+        <div class="header-baroque-bottom"></div>
+    </header>
+
+    <main>
+        <section id="introducao" class="topic-separator">
+            <div class="section-title-container">
+                <span class="title-ornament left"></span>
+                <h2>Alvorada de uma Nação</h2>
+                <span class="title-ornament right"></span>
+            </div>
+            <p class="section-intro">Bem-vindo a uma exploração imersiva da Independência da Argentina. Este site é um convite para estudantes e entusiastas da história mergulharem nos eventos cruciais, nos documentos fundamentais, nas expressões artísticas e nas influências culturais que definiram o nascimento de uma nação livre. Navegue pelas seções para descobrir o legado de um povo em busca de sua soberania.</p>
+        </section>
+
+        <section id="contexto-historico" class="topic-separator">
+            <div class="section-title-container">
+                <span class="title-ornament left"></span>
+                <h2>O Grito por Liberdade</h2>
+                <span class="title-ornament right"></span>
+            </div>
+            <p class="section-intro">Antes da independência, o Vice-Reino do Rio da Prata estava sob domínio espanhol. No início do século XIX, ideias iluministas, a Revolução Americana, a Revolução Francesa e a instabilidade na Espanha com as invasões napoleônicas criaram um terreno fértil para movimentos emancipatórios na América Latina.</p>
+            <h4>Expansão Territorial (Representação Conceitual)</h4>
+            <div id="mapa-interativo-container">
+                 <svg id="mapa-argentina-placeholder" viewBox="0 0 200 300" preserveAspectRatio="xMidYMid meet">
+                    <title>Mapa Conceitual - Províncias Unidas</title>
+                    <path d="M50,5 L150,5 L170,50 L140,150 L120,290 L80,290 L60,150 L30,50 Z" 
+                          fill="var(--azul-celeste)" stroke="var(--azul-real)" stroke-width="1" 
+                          id="territorio-inicial" data-info="Território inicial das Províncias Unidas."/>
+                    <circle cx="100" cy="80" r="5" fill="var(--vermelho-revolucao)" class="map-point" data-info="Buenos Aires: Centro da Revolução de Maio."/>
+                    <circle cx="80" cy="40" r="4" fill="var(--vermelho-revolucao)" class="map-point" data-info="Córdoba: Importante centro colonial."/>
+                     <circle cx="120" cy="30" r="4" fill="var(--vermelho-revolucao)" class="map-point" data-info="Tucumán: Sede do Congresso da Independência."/>
+                    <text x="10" y="20" font-family="var(--font-corpo)" font-size="8px">Clique nas áreas para info (simulado)</text>
+                </svg>
+                <p id="mapa-info" class="map-info-box">Passe o mouse ou clique em uma área do mapa para ver informações.</p>
+            </div>
+        </section>
+
+        <section id="timeline-interativa" class="topic-separator">
+            <div class="section-title-container">
+                 <span class="title-ornament left"></span>
+                <h2>Linha do Tempo da Independência</h2>
+                 <span class="title-ornament right"></span>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-year-content-wrapper">
+                        <div class="timeline-year">1810</div>
+                        <div class="timeline-content">
+                            <h3>Revolução de Maio</h3>
+                            <p class="timeline-details">Início do processo de independência com a deposição do vice-rei espanhol e a formação da Primeira Junta de governo em Buenos Aires.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                     <div class="timeline-year-content-wrapper">
+                        <div class="timeline-year">1813</div>
+                        <div class="timeline-content">
+                            <h3>Assembleia do Ano XIII</h3>
+                            <p class="timeline-details">Adoção de símbolos pátrios como o Hino Nacional e o escudo, abolição de títulos de nobreza e a "liberdade de ventre".</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                     <div class="timeline-year-content-wrapper">
+                        <div class="timeline-year">1816</div>
+                        <div class="timeline-content">
+                            <h3>Declaração de Independência</h3>
+                            <p class="timeline-details">Em 9 de Julho, no Congresso de Tucumán, as Províncias Unidas do Rio da Prata declaram formalmente sua independência da Espanha.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                     <div class="timeline-year-content-wrapper">
+                        <div class="timeline-year">1817</div>
+                        <div class="timeline-content">
+                            <h3>Cruzamento dos Andes</h3>
+                            <p class="timeline-details">O General José de San Martín lidera o Exército dos Andes através da cordilheira para libertar o Chile, uma manobra militar decisiva.</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="timeline-item">
+                     <div class="timeline-year-content-wrapper">
+                        <div class="timeline-year">1853</div>
+                        <div class="timeline-content">
+                            <h3>Constituição Nacional</h3>
+                            <p class="timeline-details">Sanção da Constituição Argentina, estabelecendo um governo republicano, representativo e federal, inspirado no modelo dos EUA.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="documentos-fundamentais" class="topic-separator">
+            <div class="section-title-container">
+                 <span class="title-ornament left"></span>
+                <h2>Pilares da Nação</h2>
+                 <span class="title-ornament right"></span>
+            </div>
+            <div class="documents-grid">
+                <article class="documento-card" id="declaracao-independencia">
+                    <div class="documento-header">
+                        <h3>Declaração de Independência (1816)</h3>
+                        <span class="document-icon">&#📜;</span>
+                    </div>
+                    <div class="documento-content-wrapper">
+                        <div class="documento-content">
+                            <h4>Ato de Emancipação</h4>
+                            <p>Proclamada em San Miguel de Tucumán, esta declaração formalizou a ruptura dos laços coloniais com a Espanha. Afirmava a "vontade unânime e indubitável destas Províncias de romper os violentos vínculos que as ligavam aos reis da Espanha, recuperar os direitos de que foram despojadas, e investir-se do alto caráter de uma nação livre e independente do rei Fernando VII, seus sucessores e metrópole."</p>
+                            <p><em>"Nós, os representantes das Províncias Unidas na América do Sul, reunidos em congresso geral, invocando o Eterno que preside o universo, em nome e pela autoridade dos povos que representamos, protestando ao Céu, às nações e homens todos do globo a justiça que regula nossos votos: declaramos solenemente à face da terra, que é vontade unânime e indubitável destas Províncias romper os violentos vínculos que as ligavam aos reis da Espanha..."</em></p>
+                        </div>
+                    </div>
+                </article>
+                <article class="documento-card" id="constituicao-1853">
+                     <div class="documento-header">
+                        <h3>Constituição de 1853</h3>
+                        <span class="document-icon">&#🏛️;</span>
+                    </div>
+                    <div class="documento-content-wrapper">
+                        <div class="documento-content">
+                            <h4>A Lei Máxima</h4>
+                            <p>Sancionada em Santa Fé, estabeleceu as bases da organização política da Argentina, adotando a forma de governo representativa, republicana e federal. Inspirada em constituições como a dos Estados Unidos e nas ideias de Juan Bautista Alberdi, buscou garantir direitos e liberdades fundamentais, e promover a unidade nacional após décadas de conflitos internos.</p>
+                            <p><em>Art. 1º - A Nação Argentina adota para seu governo a forma representativa republicana federal, segundo estabelece a presente Constituição.</em></p>
+                            <p><em>Art. 15º - Na Nação Argentina não há escravos: os poucos que hoje existem ficam livres desde a jura desta Constituição...</em></p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="arte-cultura" class="topic-separator">
+            <div class="section-title-container">
+                 <span class="title-ornament left"></span>
+                <h2>A Alma de uma Era</h2>
+                 <span class="title-ornament right"></span>
+            </div>
+            
+            <div id="pinturas-carrossel-container"> <!-- Novo container para o carrossel e o painel de detalhes -->
+                <h3>Pinacoteca da Independência</h3>
+                <p class="section-intro">A arte do período e dos anos seguintes refletiu os ideais, os heróis, os costumes e as paisagens da nova nação. Veja algumas obras representativas.</p>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- Slides com data-attributes para o painel de detalhes -->
+                        <div class="swiper-slide" style="background-image:url('https://images.unsplash.com/photo-1544967082-d9d25d867d66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=600&q=80')"
+                             data-obra-titulo="Un alto en el campo (1861)"
+                             data-obra-artista="Prilidiano Pueyrredón"
+                             data-obra-detalhes="Detalhes sobre 'Un alto en el campo', retratando a vida gauchesca e a paisagem pampeana, elementos centrais na identidade argentina. Pueyrredón foi um mestre em capturar a essência do cotidiano e das tradições do século XIX.">
+                            <div class="slide-caption">
+                                <h4>Un alto en el campo (1861)</h4>
+                                <p>Prilidiano Pueyrredón</p>
+                                <button class="details-btn">Ver Detalhes</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url('https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=600&q=80')"
+                             data-obra-titulo="Un Episodio de la Fiebre Amarilla (1871)"
+                             data-obra-artista="Juan Manuel Blanes"
+                             data-obra-detalhes="Obra impactante de Blanes sobre a epidemia em Buenos Aires, mostrando a realidade social e os desafios da jovem nação. A pintura é um marco do realismo social na América Latina.">
+                             <div class="slide-caption">
+                                <h4>Un Episodio de la Fiebre Amarilla (1871)</h4>
+                                <p>Juan Manuel Blanes</p>
+                                <button class="details-btn">Ver Detalhes</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url('https://images.unsplash.com/photo-1579541591970-e5cf67278d96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=600&q=80')"
+                             data-obra-titulo="Asalto a Curupaytí (c. 1890)"
+                             data-obra-artista="Cándido López"
+                             data-obra-detalhes="Cándido López, o 'pintor soldado', retratou com minúcia as batalhas da Guerra do Paraguai, conflito importante para a região. Suas obras são documentos visuais históricos de grande valor.">
+                            <div class="slide-caption">
+                                <h4>Asalto a Curupaytí (c. 1890)</h4>
+                                <p>Cándido López</p>
+                                <button class="details-btn">Ver Detalhes</button>
+                            </div>
+                        </div>
+                         <div class="swiper-slide" style="background-image:url('https://images.unsplash.com/photo-1569587112025-0d460e81a126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=600&q=80')"
+                              data-obra-titulo="Cabildo de Salta"
+                              data-obra-artista="Leonie Matthis"
+                              data-obra-detalhes="Leonie Matthis, embora ligeiramente posterior ao período central, capturou a essência de locais históricos como o Cabildo de Salta, palco de eventos cruciais. Sua técnica impressionista trouxe uma nova luz a temas históricos.">
+                            <div class="slide-caption">
+                                <h4>Cabildo de Salta</h4>
+                                <p>Leonie Matthis</p>
+                                <button class="details-btn">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <!-- Painel de Detalhes Externo -->
+                <div id="obra-details-panel" class="obra-details-panel-external">
+                    <button id="close-details-panel" class="close-btn">×</button>
+                    <h3 id="panel-obra-titulo"></h3>
+                    <p id="panel-obra-artista" class="artist-name"></p>
+                    <div id="panel-obra-texto-detalhes" class="details-text"></div>
+                </div>
+            </div>
+
+            <div id="musicas-relevantes">
+                <h3>Os Sons da Revolução</h3>
+                <div class="music-grid">
+                    <div class="music-player-card">
+                        <h4>Himno Nacional Argentino</h4>
+                        <p>Originalmente "Marcha Patriótica", suas letras exaltam a liberdade e o fim da opressão.</p>
+                        <p class="audio-placeholder">Áudio não disponível no momento. Estamos trabalhando para adicionar esta funcionalidade.</p>
+                    </div>
+                    <div class="music-player-card">
+                        <h4>Cielito de la Independencia</h4>
+                        <p>Gênero folclórico popular na época, o "cielito" acompanhou os exércitos e celebrou as vitórias.</p>
+                        <p class="audio-placeholder">Áudio não disponível no momento. Estamos trabalhando para adicionar esta funcionalidade.</p>
+                    </div>
+                    <div class="music-player-card">
+                        <h4>Cantos Gauchescos</h4>
+                        <p>Expressões da cultura do gaúcho, figura emblemática da luta pela independência e da identidade nacional.</p>
+                        <p class="audio-placeholder">Áudio não disponível no momento. Estamos trabalhando para adicionar esta funcionalidade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="legado-influencias" class="topic-separator">
+            <div class="section-title-container">
+                 <span class="title-ornament left"></span>
+                <h2>Vozes da Terra e Heróis</h2>
+                 <span class="title-ornament right"></span>
+            </div>
+            <div class="legacy-grid">
+                <article id="culturas-indigenas" class="legacy-card">
+                    <h3>Povos Originários e a Luta</h3>
+                    <p>As culturas indígenas como os Mapuches e Guaranis, preexistentes à colonização, tiveram seus territórios e modos de vida profundamente impactados. Sua resistência e participação, muitas vezes silenciada, são partes cruciais da história. A formação do estado argentino implicou novos desafios e lutas por reconhecimento e direitos para esses povos.</p>
+                </article>
+                <article id="movimentos-libertadores" class="legacy-card">
+                    <h3>Heróis da Emancipação</h3>
+                    <p>Figuras como o General José de San Martín, fundamental na libertação da Argentina, Chile e Peru, e Simón Bolívar, que liderou a independência de várias nações ao norte, foram cruciais. Manuel Belgrano, criador da bandeira e líder militar, também desempenhou papel vital. Suas ações e ideais inspiraram a busca por soberania em todo o continente.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
